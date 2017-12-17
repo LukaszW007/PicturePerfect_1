@@ -1,2 +1,38 @@
 @import url(http://pl.allfont.net/allfont.css?fonts=merriweather-heavy-italic);
 /*font-family: 'Merriweather Heavy Italic', arial;*/
+
+/*SECTION no.1*/
+.jumbotron .container{
+    background: url("pictures/layer-13_jumbotron.png") no-repeat center;
+    width: 1800px;
+    height: 951px;
+}
+.jumbotron .logo{
+    box-sizing: border-box;
+    width: 41px;
+    height: 18px;
+    color: #ffffff;
+    font-family: "Merriweather - Heavy Italic";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 20.8px;
+    /* Text style for "take" */
+    letter-spacing: -0.24px;
+}
+.jumbotron .logo-sign{
+    position: relative;
+    width: 41px;
+    height: 41px;
+    border: 4px solid #000000;
+    border-radius: 50%;
+}
+.jumbotron .logo-sign:before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 50%;
+    border: 4px solid #000000;
+    border-radius: 50%;
+    top: calc(10.25px/2);
+    left: calc(10.25px/2);
+}
