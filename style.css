@@ -62,8 +62,9 @@
     height: 25%;
     border: 4px solid #fff;
     border-radius: 50%;
-    top: 28%;
-    left: 28%;
+    transform-origin: center;
+    top: 25%;
+    left: 25%;
 }
 
 .logo-text {
