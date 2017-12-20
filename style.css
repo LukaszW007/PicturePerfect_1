@@ -25,7 +25,7 @@
 .iphone {
     background: url("pictures/iPhone.png") no-repeat;
     position: absolute;
-    right:149px;
+    right: 149px;
     bottom: -258px;
     width: 923px;
     height: 953px;
@@ -82,16 +82,19 @@
     margin-top: 10px;
     margin-left: 10px;
 }
-.main-text{
+
+.main-text {
     width: 685px;
     height: 154px;
     position: absolute;
     left: 68px;
     top: 449px;
 }
-.main-text{
+
+.main-text {
     position: relative;
 }
+
 .vertical-text {
     position: relative;
     width: 9px;
@@ -113,7 +116,8 @@
     transform: rotate(180deg);
     top: 35px;
 }
-.vertical-text2{
+
+.vertical-text2 {
     position: relative;
     width: 9px;
     height: 86px;
@@ -140,10 +144,11 @@
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);*/
 }
-.picture-perfect-header{
+
+.picture-perfect-header {
     position: absolute;
-    top:0;
-    right:calc(389px + 46px);
+    top: 0;
+    right: calc(389px + 46px);
     width: 389px;
     height: 61px;
     color: #ffffff;
@@ -153,10 +158,11 @@
     margin: 0;
     right: 46px;
 }
-.picture-perfect-description{
+
+.picture-perfect-description {
     position: absolute;
-    right:0;
-    top:calc(61px + 21px);
+    right: 0;
+    top: calc(61px + 21px);
     width: 438px;
     height: 37px;
     color: #ffffff;
@@ -168,13 +174,14 @@
 
 /*SECTION no.2, text-area*/
 
-.start-sth-new .text-area{
+.start-sth-new .text-area {
     width: 1171px;
     height: 380px;
     /*margin: 113px 314px 159px 313px;*/
     margin: 81px 266px 83px 312px;
 }
-.start-sth-new-header{
+
+.start-sth-new-header {
     width: 322px;
     height: 36px;
     color: #222626;
@@ -185,7 +192,7 @@
     padding-top: calc(113px - 81px);
 }
 
-.start-sth-new-paragraph{
+.start-sth-new-paragraph {
     margin-top: 0;
     position: relative;
     float: left;
@@ -197,14 +204,85 @@
     font-weight: 400;
     line-height: 24px;
 }
-.second-column{
+
+.second-column {
     margin-left: 31px;
     margin-top: 98px;
 }
 
 /*SECTION no.2, gallery*/
 
-.gallery{
+.gallery {
     margin: 83px 0 97px;
     height: 556px;
+    width: 100%;
+    /*display: flex;*/
 }
+
+.row {
+    /*flex:1;*/
+    display: flex;
+    width: 100%;
+    /*flex-wrap: wrap;*/
+}
+
+.gallery-element {
+    flex: 1;
+    width: 400px;
+    height: 278px;
+    background-color: #f5989d;
+    padding: 51px 56px 59px 43px;
+}
+
+.double-element {
+    /*flex: 2;*/
+    width: 800px;
+}
+
+/*.double-element .gallery-element-text {*/
+    /*margin-right: calc(320px - 56px);*/
+/*}*/
+
+/*.gallery-element-header {*/
+    /*!*width: 187px;*!*/
+    /*height: 31px;*/
+    /*color: #ffffff;*/
+    /*font-family: "Open Sans", sans-serif;*/
+    /*font-size: 30px;*/
+    /*font-weight: 300;*/
+    /*margin: 0 0 24px;*/
+
+/*}*/
+
+/*.gallery-element-text {*/
+    /*!*width: 301px;*!*/
+    /*height: 61px;*/
+    /*color: #ffffff;*/
+    /*font-family: "Open Sans", sans-serif;*/
+    /*font-size: 13px;*/
+    /*font-weight: 400;*/
+    /*line-height: 24px;*/
+/*}*/
+
+/*.gallery-element-link {*/
+    /*width: 99px;*/
+    /*height: 12px;*/
+    /*color: #ffffff;*/
+    /*font-family: "Open Sans", sans-serif;*/
+    /*font-size: 14px;*/
+    /*font-weight: 700;*/
+    /*line-height: 24px;*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.gallery-element-arrow {*/
+    /*width: 14px;*/
+    /*height: 5px;*/
+    /*color: #ffffff;*/
+    /*font-family: "Arial MT", sans-serif;*/
+    /*font-size: 14px;*/
+    /*font-weight: 400;*/
+    /*line-height: 24px;*/
+    /*margin-left: 15px;*/
+    /*text-decoration: none;*/
+/*}*/
