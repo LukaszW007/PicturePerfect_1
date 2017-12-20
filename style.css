@@ -165,3 +165,46 @@
     font-weight: 400;
     line-height: 24px;
 }
+
+/*SECTION no.2, text-area*/
+
+.start-sth-new .text-area{
+    width: 1171px;
+    height: 380px;
+    /*margin: 113px 314px 159px 313px;*/
+    margin: 81px 266px 83px 312px;
+}
+.start-sth-new-header{
+    width: 322px;
+    height: 36px;
+    color: #222626;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-top: calc(113px - 81px);
+}
+
+.start-sth-new-paragraph{
+    margin-top: 0;
+    position: relative;
+    float: left;
+    width: 569px;
+    height: 279px;
+    color: #959595;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.second-column{
+    margin-left: 31px;
+    margin-top: 98px;
+}
+
+/*SECTION no.2, gallery*/
+
+.gallery{
+    margin: 83px 0 97px;
+    height: 556px;
+}
