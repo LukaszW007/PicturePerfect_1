@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    max-width: 1800px;
 }
 
 /*SECTION no.1*/
@@ -227,62 +228,207 @@
 }
 
 .gallery-element {
-    flex: 1;
+    min-width: 400px;
     width: 400px;
     height: 278px;
-    background-color: #f5989d;
-    padding: 51px 56px 59px 43px;
 }
 
 .double-element {
-    /*flex: 2;*/
+    min-width: 800px;
     width: 800px;
 }
 
-/*.double-element .gallery-element-text {*/
-    /*margin-right: calc(320px - 56px);*/
-/*}*/
+.gallery-element-inside {
+    padding: 51px 56px 59px 43px;
+}
 
-/*.gallery-element-header {*/
-    /*!*width: 187px;*!*/
-    /*height: 31px;*/
-    /*color: #ffffff;*/
-    /*font-family: "Open Sans", sans-serif;*/
-    /*font-size: 30px;*/
-    /*font-weight: 300;*/
-    /*margin: 0 0 24px;*/
+.double-element .gallery-element-text {
+    margin-right: calc(320px - 56px);
+}
 
-/*}*/
+.gallery-element-header {
+    /*width: 187px;*/
+    height: 31px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 0 24px;
 
-/*.gallery-element-text {*/
-    /*!*width: 301px;*!*/
-    /*height: 61px;*/
-    /*color: #ffffff;*/
-    /*font-family: "Open Sans", sans-serif;*/
-    /*font-size: 13px;*/
-    /*font-weight: 400;*/
-    /*line-height: 24px;*/
-/*}*/
+}
 
-/*.gallery-element-link {*/
-    /*width: 99px;*/
-    /*height: 12px;*/
-    /*color: #ffffff;*/
-    /*font-family: "Open Sans", sans-serif;*/
-    /*font-size: 14px;*/
-    /*font-weight: 700;*/
-    /*line-height: 24px;*/
-    /*text-decoration: none;*/
-/*}*/
+.gallery-element-text {
+    /*width: 301px;*/
+    height: 61px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
-/*.gallery-element-arrow {*/
-    /*width: 14px;*/
-    /*height: 5px;*/
-    /*color: #ffffff;*/
-    /*font-family: "Arial MT", sans-serif;*/
-    /*font-size: 14px;*/
-    /*font-weight: 400;*/
-    /*line-height: 24px;*/
-    /*margin-left: 15px;*/
-    /*text-decoration: none;*/
-/*}*/
+.gallery-element-link {
+    width: 99px;
+    height: 12px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.gallery-element-arrow {
+    width: 14px;
+    height: 5px;
+    color: #ffffff;
+    font-family: "Arial MT", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/*SECTION no.2, details*/
+
+.details-container{
+    margin:0 0 159px 313px;
+}
+
+.a-look-at-the-details-header {
+    width: 306px;
+    height: 28px;
+    color: #222626;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 68px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.a-look-item {
+    margin-right: 37px;
+}
+
+.a-look-paragraph-header {
+    width: 69px;
+    color: #67676d;
+    font-family: "Open Sans - Semibold", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 23px;
+    margin-top: 0;
+}
+
+.a-look-parahraph {
+    width: 264px;
+    height: 135px;
+    color: #959595;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/*SECTION no.3, more power*/
+
+.more-power {
+    background: url("pictures/layer-8.png");
+    width: 1800px;
+    height: 874px;
+}
+.more-power .container{
+    position: relative;
+    top: 454px;
+    left: 321px;
+}
+
+.more-power-header{
+    width: 495px;
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0 0 30px;
+}
+.more-power-paragraph{
+    width: 438px;
+    height: 85px;
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 25px;
+}
+.more-power-link{
+    width: 107px;
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.more-power-arrow{
+    width: 14px;
+    color: #ffffff;
+    font-family: "Arial MT",sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/*SECTION no.4, reasons to get onboard*/
+
+.reasons-to-get-onboard {
+    width: 1800px;
+    height: 536px;
+    background-color: #82ca9c;
+}
+.reasons-to-get-onboard .container {
+    margin: 0 319px 0 313px;
+    padding-top: 124px;
+}
+
+.reasons-to-get-onboard .row {
+    display: flex;
+}
+.reasons-header{
+    /*width: 370px;*/
+    height: 36px;
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0 0 60px;
+
+}
+.reasons-item{
+    margin-right: 38px;
+    flex: 1;
+    height: 150px;
+}
+.reasons-item-header{
+    /*width: 69px;*/
+    height: 11px;
+    color: #ffffff;
+    font-family: "Open Sans - Semibold",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 0 28px;
+}
+.reasons-paragraphs{
+    width: 363px;
+    height: 111px;
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
