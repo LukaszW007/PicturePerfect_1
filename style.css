@@ -519,3 +519,49 @@
     width: 20px;
     height: 25px;
 }
+
+/*SECTION no.6, contact*/
+
+.contact{
+    width: 1800px;
+    height: 608px;
+    background-color: #192431;
+    color: #f6f7fa;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+}
+.contact .container{
+    margin: 130px 316px 157px 313px;
+}
+.row-contact{
+    display: inline-flex;
+}
+.contact-item{
+    border: 1px solid red;
+    flex:1;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family:"Open Sans",sans-serif;
+    margin-left:;
+}
+.resources-items .contact-item{
+    height: 147px;
+    width: 104px;
+    margin: 60px 97px 0 0;
+}
+.contact-header{
+    font-family: "Open Sans - Semibold",sans-serif;
+    margin: 0 0 29px;
+}
+.input-search{
+    width: 470px;
+    height: 58px;
+    border-radius: 2px;
+    background-color: #f6f7fa;
+}
+.btn-search{
+    width: 70px;
+    height: 58px;
+    background-color: #82ca9c;
+}
