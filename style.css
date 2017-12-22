@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     max-width: 1800px;
+    font-family: "Open Sans", sans-serif;
 }
 
 /*SECTION no.1*/
@@ -37,7 +38,7 @@
     display: inline-block;
     box-sizing: border-box;
     color: #ffffff;
-    font-family: "Merriweather - Heavy Italic", Serif;
+    font-family: "Merriweather - Heavy Italic", sans-serif;
     font-size: 21px;
     font-weight: 400;
     line-height: 20.8px;
@@ -102,7 +103,7 @@
     height: 49px;
     margin-left: 0;
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: "Open Sans",sans-serif;
     font-size: 12px;
     font-weight: 300;
     text-transform: uppercase;
@@ -124,11 +125,10 @@
     height: 86px;
     margin-left: 0;
     color: #ffffff;
-    font-family: "Open Sans - Semibold";
+    font-family: "Open Sans - Semibold",sans-serif;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
-    /* Text style for "takpapp.co" */
     letter-spacing: 0.3px;
     writing-mode: vertical-rl;
     text-orientation: sideways;
@@ -138,22 +138,14 @@
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
     top: 15px;
-    /*transform-origin: left top 0;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);*/
 }
 
 .picture-perfect-header {
     position: absolute;
     top: 0;
-    right: calc(389px + 46px);
     width: 389px;
     height: 61px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 60px;
     font-weight: 300;
     margin: 0;
@@ -167,7 +159,6 @@
     width: 438px;
     height: 37px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
@@ -178,19 +169,17 @@
 .start-sth-new .text-area {
     width: 1171px;
     height: 380px;
-    /*margin: 113px 314px 159px 313px;*/
-    margin: 81px 266px 83px 312px;
+    margin: 113px 266px 83px 312px;
 }
 
 .start-sth-new-header {
     width: 322px;
     height: 36px;
     color: #222626;
-    font-family: "Open Sans", sans-serif;
     font-size: 35px;
     font-weight: 300;
     line-height: 24px;
-    padding-top: calc(113px - 81px);
+    margin-bottom: 30px;
 }
 
 .start-sth-new-paragraph {
@@ -200,7 +189,6 @@
     width: 569px;
     height: 279px;
     color: #959595;
-    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -217,14 +205,11 @@
     margin: 83px 0 97px;
     height: 556px;
     width: 100%;
-    /*display: flex;*/
 }
 
 .row {
-    /*flex:1;*/
     display: flex;
     width: 100%;
-    /*flex-wrap: wrap;*/
 }
 
 .gallery-element {
@@ -247,10 +232,8 @@
 }
 
 .gallery-element-header {
-    /*width: 187px;*/
     height: 31px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 30px;
     font-weight: 300;
     margin: 0 0 24px;
@@ -258,10 +241,8 @@
 }
 
 .gallery-element-text {
-    /*width: 301px;*/
     height: 61px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
@@ -271,7 +252,6 @@
     width: 99px;
     height: 12px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
@@ -300,7 +280,6 @@
     width: 306px;
     height: 28px;
     color: #222626;
-    font-family: "Open Sans", sans-serif;
     font-size: 35px;
     font-weight: 300;
     line-height: 24px;
@@ -330,7 +309,6 @@
     width: 264px;
     height: 135px;
     color: #959595;
-    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -353,7 +331,6 @@
 .more-power-header {
     width: 495px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 60px;
     font-weight: 300;
     margin: 0 0 30px;
@@ -363,7 +340,6 @@
     width: 438px;
     height: 85px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
@@ -373,7 +349,6 @@
 .more-power-link {
     width: 107px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
@@ -409,7 +384,6 @@
     /*width: 370px;*/
     height: 36px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 35px;
     font-weight: 300;
     margin: 0 0 60px;
@@ -436,7 +410,6 @@
     width: 363px;
     height: 111px;
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -462,7 +435,6 @@
     height: 380px;
     color: #8297a7;
     padding: 47px 94px 56px 53px;
-    font-family: "Open Sans",sans-serif;
 }
 
 .most-popular {
@@ -489,19 +461,22 @@
     height: 24px;
     background-color: #bd8cbf;
 }
-.plan-header{
+
+.plan-header {
     color: #2e3b4e;
     font-size: 30px;
     font-weight: 300;
-    margin: 23px 0px 25px;
+    margin: 23px 0 25px;
 }
-.plan-paragraph{
+
+.plan-paragraph {
     color: #8297a7;
     font-size: 14px;
     font-weight: 400;
-    margin: 25px 0px;
+    margin: 25px 0;
 }
-.plan-buy-btn{
+
+.plan-buy-btn {
     width: 151px;
     height: 47px;
     border-radius: 3px;
@@ -512,65 +487,77 @@
     line-height: 22px;
     text-transform: uppercase;
     letter-spacing: 1.3px;
-    border-style:none;
+    border-style: none;
     margin-bottom: 20px;
 }
-.apple, .windows{
+
+.apple, .windows {
     width: 20px;
     height: 25px;
 }
 
 /*SECTION no.6, contact*/
 
-.contact{
+.contact {
     width: 1800px;
     height: 608px;
     background-color: #192431;
     color: #f6f7fa;
-    font-family: "Open Sans", sans-serif;
     display: flex;
 }
-.contact .container{
+
+.contact .container {
     margin: 130px 316px 157px 313px;
 }
-.row-contact{
+
+.row-contact {
     display: inline-flex;
 }
-.item-margin{
+
+.item-margin {
     padding-right: 135px;
 }
-.contact-item{
-    flex:1;
+
+.contact-item {
+    flex: 1;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
-    margin-left:;
 }
-.resources-items .contact-item{
+
+.resources-items .contact-item {
     height: 147px;
     width: 104px;
     margin: 60px 97px 0 0;
 }
-.contact-header{
-    font-family: "Open Sans - Semibold",sans-serif;
+
+.contact-header {
+    font-family: "Open Sans - Semibold", sans-serif;
     margin: 0 0 29px;
 }
-.input-search{
+
+.input-search {
     width: 400px;
     height: 58px;
     border-radius: 2px;
     background-color: #f6f7fa;
+    border:none;
+    padding:0;
 }
-.btn-search{
+
+.btn-search {
     width: 70px;
     height: 58px;
     background-color: #82ca9c;
     border-style: none;
 }
-.btn-search i{
+
+.btn-search i {
     color: #ffffff;
+    padding:0;
 }
-.search-info{
+
+.search-info {
     width: 334px;
     height: 30px;
     color: #57697f;
