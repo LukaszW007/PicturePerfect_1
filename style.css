@@ -536,13 +536,14 @@
 .row-contact{
     display: inline-flex;
 }
+.item-margin{
+    padding-right: 135px;
+}
 .contact-item{
-    border: 1px solid red;
     flex:1;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
-    font-family:"Open Sans",sans-serif;
     margin-left:;
 }
 .resources-items .contact-item{
@@ -555,7 +556,7 @@
     margin: 0 0 29px;
 }
 .input-search{
-    width: 470px;
+    width: 400px;
     height: 58px;
     border-radius: 2px;
     background-color: #f6f7fa;
@@ -564,4 +565,14 @@
     width: 70px;
     height: 58px;
     background-color: #82ca9c;
+    border-style: none;
+}
+.btn-search i{
+    color: #ffffff;
+}
+.search-info{
+    width: 334px;
+    height: 30px;
+    color: #57697f;
+    margin-top: 18px;
 }
