@@ -33,7 +33,7 @@
     height: 953px;
 }
 
-.jumbotron .logo {
+.logo {
     position: relative;
     display: inline-block;
     box-sizing: border-box;
@@ -42,7 +42,6 @@
     font-size: 21px;
     font-weight: 400;
     line-height: 20.8px;
-    /* Text style for "take" */
     letter-spacing: -0.24px;
     top: 56px;
     left: 316px;
@@ -72,7 +71,6 @@
 .logo-text {
     position: relative;
     float: left;
-    /* Style for "take" */
     width: 41px;
     height: 18px;
     color: #ffffff;
@@ -107,7 +105,6 @@
     font-size: 12px;
     font-weight: 300;
     text-transform: uppercase;
-    /* Text style for "perfect" */
     letter-spacing: 0.3px;
     writing-mode: vertical-rl;
     text-orientation: sideways;
@@ -277,7 +274,6 @@
 }
 
 .a-look-at-the-details-header {
-    width: 306px;
     height: 28px;
     color: #222626;
     font-size: 35px;
@@ -295,7 +291,6 @@
 }
 
 .a-look-paragraph-header {
-    width: 69px;
     color: #67676d;
     font-family: "Open Sans - Semibold", sans-serif;
     font-size: 13px;
